@@ -1,0 +1,26 @@
+<form class="one">
+  <h2 class="page-header">서비스 사용자 리스트</h2>
+  <p>이 서비스에 등록된 사용자 리스트를 테이블로 보여줍니다.</p>
+  <table class="table">
+    <thead class="table">
+      <tr>
+        <th style="width:30%">Name</th>
+        <th style="width:20%">ID</th>
+        <th style="width:50%">Email</th>
+      </tr>
+    </thead>
+  </table>
+
+</form>
+<form class="two">
+  
+  <table class="table table-striped table-hover">
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td style="width:30%">{{ user.name }}</td>
+        <td style="width:20%">{{ user.username }}</td>
+        <td style="width:50%">{{ user.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</form>

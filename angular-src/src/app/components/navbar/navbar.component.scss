@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gugi&family=Jua&display=swap');
+
+#nav1 {
+  font-family: 'Jua', sans-serif;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px dashed;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#nav_width1 {
+  width: 25cm;
+}
+
+#nav1 .navbar-brand {
+  font-size: 22px;
+}
+
+#home {
+  padding: 0.5rem 0;
+}
+
+#middle-nav {
+  margin: 0!important;
+  flex-direction:row;
+  justify-content: center;
+}
+
+
+#right-nav {
+  margin: 0!important;
+  flex-direction:row;
+  justify-content: center;
+  
+}
+
+
+
+#nav2 {
+  width: 100%;
+  position:fixed;
+  bottom: 0;
+  padding: 0;
+  z-index: 9999;
+}
+
+#nav_width2 {
+  padding: 0;
+  margin: 0 auto;
+  width: 25cm;
+}
+
+
+.nav-item2 {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Jua', sans-serif;
+  font-size: 18px;
+  padding: 10px 12px;
+  border: 1.5px dashed;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom: none;
+  color: black;
+  float: left;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transform: translateY(40%);
+  transition: 0.7s;
+}
+
+.nav-item2:hover{
+  background-color: rgba(38, 126, 38, 0.904);
+  transform: translateY(0%);
+  transition: 0.7s;
+}
+
+.nav-item2:hover .nav-link{
+  color: white;
+}
+
+
+.nav-link {
+  color: black;
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+  #home {
+    display: none;
+  }
+  #middle-nav li{
+    margin: 0 15px;
+  }
+
+  #right-nav li{
+    margin: 0 16px;
+  } 
+
+  #nav_width2 {
+    width: 100%;
+  }
+
+  .nav-item2 {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px auto;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0px;
+    border-bottom: none;
+    box-shadow: none;
+    transform: none;
+  }
+
+  #item1, #item2 {
+    border-top: 0.05cm dashed;
+  }
+
+  .nav-link {
+    color: black;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+}
+@media screen and(max-width: 280px) {
+  .nav-item2 {
+    font-size: 6vw;
+  }
+}
+  

@@ -1,0 +1,12 @@
+<form>
+  <div *ngIf="name">
+    <h2 class="page-header">Name: {{ name }}</h2>
+    <br/>
+    <div class="name">
+      Username: {{ username }} 
+      <br/>
+      Email: {{ email }}
+    </div>
+  </div>
+  <a class="btn" routerLink="/profile-edit">내 정보 수정</a>
+</form>

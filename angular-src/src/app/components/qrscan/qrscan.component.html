@@ -1,0 +1,22 @@
+<form>
+  <h2 class="page-header">QR명함 스캔</h2>
+  <p class="small">QR명함을 생성하여 여기에 스캔해 주세요.</p>
+
+  <canvas id="scan-canvas" hidden="false"></canvas>
+
+  <div id="output">
+    {{ qrcodeDetected }} <br/><br/>
+    <p>이름|Name : {{ this.name }}</p> 
+    <p>소속|Organization : {{ this.org }}</p> 
+    <p>직위|Title : {{ this.title }} </p>
+    <p>전화|Telephone : {{ this.tel }}</p>
+    <p>팩스|Fax : {{ this.fax }} </p>
+    <p>휴대폰|Mobile : {{ this.mobile }} </p>
+    <p>이메일|email : {{ this.email }} </p>
+    <p>홈페이지|Hamepage : {{ this.homepage }} </p>
+    <p>주소|Address : {{ this.address }} </p>
+    <p>우편번호|Zipcode : {{ this.zip }}</p>
+    <br>
+    <br>
+  </div>
+</form>

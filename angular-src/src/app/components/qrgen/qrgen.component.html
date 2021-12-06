@@ -1,0 +1,25 @@
+<section>
+  <form class="one">
+      <div class="mb-3">
+        <h2 class="page-header">QR명함 생성 - {{ username }}</h2>
+        <br />
+        <label for="exampleFormControlInput2" class="form-label"
+          >명함정보 | NameCard</label>
+        <textarea 
+          class="form-control" 
+          id="exampleFormControlInput2" 
+          rows="4" 
+          disabled
+          >{{ card }}</textarea
+        >
+      </div>
+      <ngx-qrcode class="code" [elementType]="elementType" [value]="value" [width]="200"></ngx-qrcode>
+  </form>
+  <form class="two">
+    <div class="qr"></div>
+    <ngx-qrcode class="qr_" [elementType]="elementType" [value]="value" ></ngx-qrcode>
+  </form>
+
+</section>
+
+

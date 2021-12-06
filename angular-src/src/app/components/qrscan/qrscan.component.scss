@@ -1,0 +1,42 @@
+.scan-canvas {
+  width: 25cm;
+}
+
+form {
+  margin-bottom: 5cm;
+  border: 1px dashed;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  .page-header, .small {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 900;
+    margin: 30px 30px;
+    margin-top: 30px;
+  }
+  .small {
+    font-size: 15px;
+  }
+
+  canvas {
+    width: 75%;
+    margin: 0px 30px;
+  }
+  p {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 900;
+    margin: 0;
+  }
+  #output {
+    margin: 0px 30px;
+    overflow: scroll;
+  }
+}
+
+
+@media screen and(max-width: 420px) { 
+  p {
+    font-size :14px;
+  }
+}

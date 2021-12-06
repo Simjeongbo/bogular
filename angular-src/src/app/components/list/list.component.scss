@@ -1,0 +1,56 @@
+
+form {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+.one {
+  border-top: 1px solid white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  h2 {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 900;
+    padding-top: 30px;
+    margin: 0px 30px;
+    margin-bottom: 9px;
+  }
+  p {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 900;
+    margin: 0px 30px;
+    margin-bottom: 9px;
+  }
+  table {
+    margin-bottom: 0;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(38, 126, 38, 0.904)
+    
+  }
+  th{
+    color: white;
+    margin-bottom: 0;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+  }
+
+}
+
+.two {
+  border-left: 0.05px dashed;
+  border-right: 0.05px dashed;
+  border-bottom: 0.05px dashed;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 60vh;
+  overflow: scroll;
+
+  table {
+    margin-bottom: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: center;
+  }
+}

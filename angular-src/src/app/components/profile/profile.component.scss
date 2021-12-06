@@ -1,0 +1,32 @@
+form {
+  border: 1px dashed;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 2cm;
+  text-align: center;
+  .page-header {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 900;
+    margin: 30px 30px;
+    margin-top: 30px;
+  }
+
+  .name {
+    margin: 0 30px;
+    margin-bottom: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+  }
+
+  .btn {
+    margin: 0 30px;
+    margin-bottom: 30px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 700;
+    background-color: rgba(14, 93, 14, 0.808);
+    color: white;
+    width: 150px;
+    height: 40px;
+  }
+}

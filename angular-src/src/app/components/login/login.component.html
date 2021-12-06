@@ -1,0 +1,30 @@
+
+<form (ngSubmit)="onLoginSubmit()">
+  
+  <h2 class="page-header">로그인 | Login</h2>
+  <br />
+  <div class="form-group">
+    <label for="exampleInputEmail3">아이디 : Username</label>
+    <input
+    type="text"
+    [(ngModel)]="username" 
+    [ngModelOptions]="{ standalone: true }"
+    class="form-control"
+    id="exampleInputEmail3"/>
+  </div> 
+  <br />
+  <div class="form-group">
+    <label for="exampleInputEmail4">패스워드 : Password</label>
+    <input
+    type="password"
+    [(ngModel)]="password" 
+    [ngModelOptions]="{ standalone: true }"
+    class="form-control"
+    id="exampleInputEmail4"/>
+  </div> 
+  <br />
+  <input type="submit" class="btn btn-success btn-lg" value="로그인" />
+  <br />
+  <a class="page-tail" routerLink="/register">아직 회원이 아니신가요? </a>
+</form>
+
